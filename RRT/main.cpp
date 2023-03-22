@@ -1,3 +1,11 @@
+/*
+Rapidly-Exploring Random Trees (RRT) path planning algorithm for grid based map
+Author: Hossein Rezaeifar
+Copyright: Copyright (c) 2023, Hossein Rezaeifar
+License: MIT
+Date: March 2023
+*/
+
 #include <bits/stdc++.h>
 #include <vector>
 #include "source/RRT.h"
@@ -51,8 +59,6 @@ int main() {
     }
 
     cout << endl;
-    //cout << "The start point would be: (" << start.y << ", " << ROW-start.x << ")" << endl;
-    //cout << "The goal point would be: (" << goal.y << ", " << ROW-goal.x << ")" << endl;
 
     cout << "The start point would be: (" << start.x << ", " << start.y << ")" << endl;
     cout << "The goal point would be: (" << goal.x << ", " << goal.y << ")" << endl;
@@ -87,3 +93,4 @@ int main() {
 
     return 0;
 }
+
