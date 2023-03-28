@@ -182,18 +182,18 @@ vector<Node> RRT::rrtpath(const Point& start, const Point& goal, const vector<ve
         Point nearestPoint = tree[nearestIndex].point;
         Point newPoint;
         if (clearPath(nearestPoint, randPoint, grid)) { // Check if there is a clear path to the random point
-            if (distance(nearestPoint, randPoint) < CELL_SIZE) { // If the random point is very close to the nearest node, set the new point to be the random point
+            if (distance(nearestPoint, randPoint) < MAX_DIS) { // If the random point is very close to the nearest node, set the new point to be the random point
                 newPoint = randPoint;
             } else { // Otherwise, set the new point to be the point on the path that is one grid cell away from the nearest node
                 double d = distance(nearestPoint, randPoint);
                 double dx = (randPoint.x - nearestPoint.x) / d;
                 double dy = (randPoint.y - nearestPoint.y) / d;
-                newPoint = {nearestPoint.x + CELL_SIZE * dx, nearestPoint.y + CELL_SIZE * dy};
+                newPoint = {nearestPoint.x + MAX_DIS * dx, nearestPoint.y + MAX_DIS * dy};
             }
             if (!withinObstacle(newPoint, grid)) { // Check if the new point is within an obstacle
                 int newNodeIndex = tree.size(); // Add the new node to the tree
                 tree.push_back(createNewNode(newPoint, nearestIndex));
-                if (distance(newPoint, goal) < CELL_SIZE/2) { // If the new node is close enough to the goal, return the path
+                if (distance(newPoint, goal) < CELL_SIZE/2 && clearPath(newPoint, goal, grid)) { // If the new node is close enough to the goal, return the path
                     vector<Node> path;
                     int currentIndex = newNodeIndex;
                     while (currentIndex != -1) {

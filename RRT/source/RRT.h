@@ -28,6 +28,9 @@ const double ROBOT_RADIUS = 0.5;
 // Define the maximum number of iterations for RRT
 const int MAX_ITER = 10000;
 
+// Define the maximum distance in RRT branch
+const double MAX_DIS = 2;
+
 // Define the data structure for a 2D point
 struct Point {
     double x;

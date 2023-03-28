@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Dell/Desktop/RRT-OOP/cmake-build-debug"
+			"value" : "c:/Users/Dell/Desktop/RRT/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Dell/Desktop/RRT-OOP/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/Dell/Desktop/RRT/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Dell/Desktop/RRT-OOP"
+			"value" : "C:/Users/Dell/Desktop/RRT"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/RRT_OOP"
+			"value" : "C:/Program Files (x86)/RRT"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -875,7 +875,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "RRT_OOP"
+			"value" : "RRT"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1254,7 +1254,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "RRT_OOP_BINARY_DIR",
+			"name" : "RRT_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1263,10 +1263,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Dell/Desktop/RRT-OOP/cmake-build-debug"
+			"value" : "C:/Users/Dell/Desktop/RRT/cmake-build-debug"
 		},
 		{
-			"name" : "RRT_OOP_IS_TOP_LEVEL",
+			"name" : "RRT_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1278,7 +1278,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "RRT_OOP_SOURCE_DIR",
+			"name" : "RRT_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1287,7 +1287,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Dell/Desktop/RRT-OOP"
+			"value" : "C:/Users/Dell/Desktop/RRT"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

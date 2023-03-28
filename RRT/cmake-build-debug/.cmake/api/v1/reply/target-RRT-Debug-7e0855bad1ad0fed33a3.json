@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "RRT_OOP.exe"
+			"path" : "RRT.exe"
 		},
 		{
-			"path" : "RRT_OOP.pdb"
+			"path" : "RRT.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -57,7 +57,7 @@
 			]
 		}
 	],
-	"id" : "RRT_OOP::@6890427a1f51a3e7e1df",
+	"id" : "RRT::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -77,8 +77,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "RRT_OOP",
-	"nameOnDisk" : "RRT_OOP.exe",
+	"name" : "RRT",
+	"nameOnDisk" : "RRT.exe",
 	"paths" : 
 	{
 		"build" : ".",
