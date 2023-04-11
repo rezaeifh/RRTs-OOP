@@ -80,16 +80,15 @@ int main() {
         grid[obs[k][0]][obs[k][1]].obstacle = true;
     }
 
-
     // Create RRT object
     RRTConnect train(grid, start, goal);
+
     // RRT
     vector<Node> path = train.rrtConnect( start, goal, grid);
     //Print initial map
     train.initmap();
     // Print output
     train.trace( path);
-
 
     return 0;
 }
